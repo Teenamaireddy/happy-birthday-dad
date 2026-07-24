@@ -239,9 +239,8 @@ padding:25px;
 
 border-radius:25px;
 
-background:rgba(255,255,255,.12);
-
-backdrop-filter:blur(12px);
+background: rgba(0,0,0,.55);
+border:2px solid rgba(255,215,0,.5);
 
 line-height:1.9;
 
@@ -351,13 +350,10 @@ height:90px;
 }
 
 .centerPhoto{
-
-width:170px;
-
-height:170px;
-
+    width:220px;
+    height:280px;
+    border-radius:25px;
 }
-
 #message{
 
 font-size:16px;
