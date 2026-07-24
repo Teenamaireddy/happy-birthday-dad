@@ -60,6 +60,7 @@ body{
     width:100%;
     height:100%;
     object-fit:contain;
+background:white;
     filter:drop-shadow(0 0 30px gold);
     transition:transform .5s ease;
 }
@@ -161,13 +162,10 @@ box-shadow:0 0 40px gold;
 }
 
 .centerPhoto img{
-
-width:100%;
-
-height:100%;
-
-object-fit:cover;
-
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    background:white;
 }
 
 /* ---------- Photos ---------- */
@@ -180,7 +178,8 @@ width:130px;
 
 height:130px;
 
-object-fit:cover;
+object-fit:contain;
+background:white;
 
 border:4px solid white;
 
