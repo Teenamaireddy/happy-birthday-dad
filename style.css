@@ -49,21 +49,23 @@ body{
 }
 
 #giftBox{
-
-    font-size:140px;
-
+    width:220px;
+    height:220px;
     cursor:pointer;
-
-    transition:.6s;
-
-    animation:giftFloat 2s infinite ease-in-out;
-
+    animation:giftFloat 2s ease-in-out infinite;
+    transition:transform .3s;
 }
 
-#giftBox:hover{
+#giftImage{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    filter:drop-shadow(0 0 30px gold);
+    transition:transform .5s ease;
+}
 
-    transform:scale(1.1);
-
+#giftBox:hover #giftImage{
+    transform:scale(1.08) rotate(-5deg);
 }
 
 @keyframes giftFloat{
